@@ -1,11 +1,16 @@
 import { Divider, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
-
+import Body from "./components/Body";
 function About() {
   return (
     <Box>
-      <Box sx={{ display: "flex" }} alignItems="center" mb={2} data-name="Header">
+      <Box
+        sx={{ display: "flex" }}
+        alignItems="center"
+        mb={2}
+        data-name="Header"
+      >
         <Typography
           variant="h1"
           id="about"
@@ -32,7 +37,17 @@ function About() {
           </Typography>
           About Me
         </Typography>
-        <Divider sx={{ height: "1px", width: "300px",borderColor:"unset", bgcolor: "primary.secondary" }} />
+        <Divider
+          sx={{
+            height: "1px",
+            width: "300px",
+            borderColor: "unset",
+            bgcolor: "primary.secondary",
+          }}
+        />
+      </Box>
+      <Box>
+        <Body />
       </Box>
     </Box>
   );
