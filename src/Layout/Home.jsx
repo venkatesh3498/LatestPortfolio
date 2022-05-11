@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 import { Box } from "@mui/material";
 import React from "react";
 import LeftStyledStick from "../components/LeftStyledStick";
+import Experience from "../pages/experience/Experience";
 import Hero from "../pages/Hero/Hero";
 import RightStyledStick from "./../components/RightStyledStick";
 import About from './../pages/about/About';
@@ -38,6 +39,7 @@ function Home() {
       <PageCeneterWrapper>
         <Hero />
         <About />
+        <Experience />
       </PageCeneterWrapper>
       <RightStyledWrapper>
         <RightStyledStick />

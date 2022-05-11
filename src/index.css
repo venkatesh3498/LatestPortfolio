@@ -5,6 +5,17 @@ body {
   width: 100%;
   height: 100%;
 }
-::selection{
+::selection {
   background-color: #233554;
+}
+body::-webkit-scrollbar {
+  width: 12px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #495670;
+  border: 3px solid #0a192f;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-track {
+  background: #0a192f;
 }
