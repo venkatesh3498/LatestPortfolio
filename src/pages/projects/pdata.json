@@ -1,0 +1,32 @@
+[
+  {
+    "title": "RANDOM QUOTES",
+    "description": "It Generates Random Quote On Every Click Of Next Quote",
+    "tech": ["HTML5", "CSS3", "JS", "Random Quote Api"],
+    "external": "https://venkatesh3498.github.io/quote-generator/"
+  },
+  {
+    "title": "WALLPAPERS",
+    "description": "It Has More Than 350+ WallPapers",
+    "tech": ["HTML5", "CSS3", "JS"],
+    "external": "https://venkatesh3498.github.io/Wallpapers/"
+  },
+  {
+    "title": "WEDDING INVITATION",
+    "description": "Simple Wedding Invitation Page Made With Love in Sister",
+    "tech": ["HTML5", "CSS3", "JS"],
+    "external": "https://venkatesh3498.github.io/invitation/"
+  },
+  {
+    "title": "USE LESS WEB",
+    "description": "As Name It takes You To Some Random Use Less WebPages",
+    "tech": ["HTML5", "CSS3", "JS"],
+    "external": "https://venkatesh3498.github.io/uselessWeb/"
+  },
+  {
+    "title": "PortFolio V2",
+    "description": "It Was Second Portfolio",
+    "tech": ["HTML5", "CSS3", "JS"],
+    "external": "https://venkateswararaov2.netlify.app/"
+  }
+]
