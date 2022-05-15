@@ -1,0 +1,23 @@
+[
+  {
+    "title": "MernPos",
+    "external": "https://mernpos.vercel.app",
+    "tech": ["ReactJs", "ExpressJs", "MongoDb", "Cloudinary", "Vercel"],
+    "description": "MernPos Is Point Of Sale WebApp,Is Used To Generate Bills For Products And Print Those Bills,Used Cloudinary Media Cdn Store Images Of Products And MongoDb For DataBase.",
+    "imgSrc": "proj/mernpos.png"
+  },
+  {
+    "title": "FoodMerlin",
+    "external": "https://foodmerlin.herokuapp.com",
+    "tech": ["ReactJs", "ExpressJs", "MongoDb", "Stripe", "Heroku"],
+    "description": "FoodMerlin Is A Mern Stack E-Commerce App People Can Register/SignIn And Add Products To Cart And Checkout Them And Can Pay Via Any Type Of Card,I Have Implemented Stripe For Payment",
+    "imgSrc": "proj/foodmerlin.png"
+  },
+  {
+    "title": "Emk",
+    "external": "https://emk.netlify.app",
+    "tech": ["ReactJs", "OpenTriviaDb", "Netlify"],
+    "description": "Emk Is Basically A Quiz App Inspired From Be A Millionaire,Using OpenTriviaDb Api To Get Questions,it Was Very First Project In ReactJs",
+    "imgSrc": "proj/emk.png"
+  }
+]

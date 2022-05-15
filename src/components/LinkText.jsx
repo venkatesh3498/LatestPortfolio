@@ -24,9 +24,9 @@ const StyledLink = styled(`a`)(({ theme }) => ({
   },
 }));
 
-const LinkText = ({ to, text }) => {
+const LinkText = ({ href, text }) => {
   return (
-    <StyledLink target="_blank" href={to}>
+    <StyledLink target="_blank" href={href}>
       {text}
     </StyledLink>
   );

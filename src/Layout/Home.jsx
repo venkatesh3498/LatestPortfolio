@@ -6,6 +6,7 @@ import Experience from "../pages/experience/Experience";
 import Hero from "../pages/Hero/Hero";
 import RightStyledStick from "./../components/RightStyledStick";
 import About from './../pages/about/About';
+import FeauturedProjects from './../pages/projects/FeauturedProjects';
 const LeftStyledWrapper = styled(Box)(({ theme }) => ({
   display: theme.breakpoints.xs ? "none" : "block",
   position: "fixed",
@@ -40,6 +41,7 @@ function Home() {
         <Hero />
         <About />
         <Experience />
+        <FeauturedProjects />
       </PageCeneterWrapper>
       <RightStyledWrapper>
         <RightStyledStick />
