@@ -4,6 +4,7 @@ import React from 'react'
 import data from './fpdata.json'
 import LinkText from '../../components/LinkText'
 const StyledProjectsGrid = styled(`ul`)(({ theme }) => ({
+  paddingInlineStart: '1px',
   a: {
     position: 'relative',
     zIndex: 1
@@ -52,8 +53,13 @@ const StyledProject = styled(`li`)(({ theme }) => ({
       }
     },
     '& .project-image': {
-      width: '560.5px',
-      height: '361px',
+      width: { xs: '100%', sm: '100%', md: '560.5px', lg: '560.5px' },
+      height: {
+        xs: 'max-content',
+        sm: 'max-content',
+        md: '361px',
+        lg: '361px'
+      },
       gridColumn: '1 / 8',
       '@media (max-width: 768px)': { gridColumn: '1 / -1' }
     }
@@ -155,8 +161,8 @@ const StyledProject = styled(`li`)(({ theme }) => ({
     '& .cta': { margin: '10px' }
   },
   '& .project-image': {
-    width: '560.5px',
-    height: '361px',
+    width: { xs: '100%', sm: '100%', md: '560.5px', lg: '560.5px' },
+    height: { xs: 'max-content', sm: 'max-content', md: '361px', lg: '361px' },
     gridColumn: '6 / -1',
     gridRow: '1 / -1',
     position: 'relative',
@@ -199,7 +205,12 @@ const FeauturedProjects = () => {
       sx={{
         margin: 'auto',
         boxSizing: 'content-box',
-        py: '100px'
+        py: {
+          xs: '20px',
+          sm: '20px',
+          md: '100px',
+          lg: '100px'
+        }
       }}
     >
       <Box

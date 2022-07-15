@@ -39,6 +39,12 @@ function Hero() {
           <Typography
             variant="h2"
             sx={{
+              fontSize: {
+                xs: '40px',
+                sm: '40px',
+                md: '60px',
+                lg: '60px'
+              },
               fontWeight: 400,
               wordSpacing: "5px",
               textTransform: "capitalize",

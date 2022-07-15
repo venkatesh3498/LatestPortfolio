@@ -172,7 +172,9 @@ const Projects = () => {
   return (
     <StyledProjectSection>
       <h2>Other Noteworthy Projects</h2>
-      <ul className="projects-grid">
+      <ul style={{
+        paddingInlineStart:'0px'
+      }} className="projects-grid">
         {data &&
           data.map((data, i) => (
             <StyledProject key={i}>
