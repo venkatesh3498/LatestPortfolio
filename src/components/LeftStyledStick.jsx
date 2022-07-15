@@ -32,6 +32,7 @@ function LeftStyledStick() {
         }}
       >
         <Icon
+          onClick={() => window.open("https://www.linkedin.com/in/venkatesh-g-03a65b131/","_blank")}
           sx={{
             width: "30px",
             height: "30px",
@@ -53,6 +54,7 @@ function LeftStyledStick() {
           />
         </Icon>
         <Icon
+          onClick={() => window.open("https://github.com/venkatesh3498","_blank")}
           sx={{
             width: "30px",
             height: "30px",
@@ -74,6 +76,7 @@ function LeftStyledStick() {
           />
         </Icon>
         <Icon
+          onClick={() => window.open("https://api.whatsapp.com/send/?phone=919553361948&text&app_absent=0","_blank")}
           sx={{
             width: "30px",
             height: "30px",
@@ -95,6 +98,7 @@ function LeftStyledStick() {
           />
         </Icon>
         <Icon
+          onClick={() => window.open("https://www.instagram.com/venkatesh.343/","_blank")}
           sx={{
             width: "30px",
             height: "30px",

@@ -10,10 +10,13 @@ import RightStyledStick from "./../components/RightStyledStick";
 import About from "./../pages/about/About";
 import FeauturedProjects from "./../pages/projects/FeauturedProjects";
 const LeftStyledWrapper = styled(Box)(({ theme }) => ({
-  display: theme.breakpoints.xs ? "none" : "block",
   position: "fixed",
   bottom: "0px",
   width: "150px",
+  [theme.breakpoints.down("sm")]: {
+    display: "none",
+    width: "0px",
+  },
 }));
 const RightStyledWrapper = styled(Box)(({ theme }) => ({
   position: "fixed",
@@ -21,10 +24,19 @@ const RightStyledWrapper = styled(Box)(({ theme }) => ({
   right: "0px",
   width: "150px",
   color: theme.palette.primary.main,
+  [theme.breakpoints.down("sm")]: {
+    display: "none",
+    width: "0px",
+  },
 }));
 const PageCeneterWrapper = styled(Box)(({ theme }) => ({
   padding: "30px 150px 0px 150px",
+  width: "100%",
+  // overflow: "hidden",
   flexGrow: 1,
+  [theme.breakpoints.down("sm")]: {
+    padding: "30px 10px 0px 10px",
+  },
 }));
 
 function Home() {
@@ -32,7 +44,7 @@ function Home() {
     <Box
       sx={{
         display: "flex",
-        height: "100%",
+        height: "100vh",
         width: "100%",
       }}
     >
